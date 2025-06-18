@@ -1,0 +1,116 @@
+/* p {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+} */
+
+/* body {
+    background-image: url('joel-timothy-Hy2D7M2kaeg-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+img, video {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    /* background-color: #96D4D4; */
+    /* border-radius: 20px; */
+}
+
+.dotted {
+    border: 5px solid red;
+    border-style: dotted;
+}
+.dashed {
+    border: 5px solid red;
+    border-style: dashed;
+}
+.solid {
+    border: 5px solid red;
+    border-style: solid;
+}
+.double {
+    border: 5px solid red;
+    border-style: double;
+}
+.groove {
+    border: 5px solid red;
+    border-style: groove;
+}
+.ridge {
+    border: 5px solid red;
+    border-style: ridge;
+}
+.inset {
+    border: 5px solid red;
+    border-style: inset;
+}
+.outset {
+    border: 5px solid red;
+    border-style: outset;
+}
+.none {
+    border: 5px solid red;
+    border-style: none;
+}
+.hidden {
+    border: 5px solid red;
+    border-style: hidden;
+}
+
+/* tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+} */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #DDD;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+    /* margin-right: 10px; */
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}

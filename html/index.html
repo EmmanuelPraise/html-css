@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/laptop.png" type="image/x-icon">
+    <title>HTML & CSS</title>
+</head>
+
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <!-- <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae atque commodi nemo nulla facilis rerum adipisci, obcaecati deserunt officia eveniet quae illo, in harum molestias voluptatem reprehenderit consectetur! Perferendis, deserunt.</a> -->
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ratione hic ex quidem, quaerat officia consequatur
+        minima omnis ducimus sequi beatae ab dolor quas, voluptas quos non necessitatibus laboriosam ad.</p>
+
+    <a href="https://www.google.com" target="_blank">Google.com</a>
+    <!-- <a href="https://www.google.com" target="_parent">Google.com</a>
+    <a href="https://www.google.com" target="_self">Google.com</a>
+    <a href="https://www.google.com" target="_top">Google.com</a> -->
+
+    <a href="mailto:emmanuelpraise36@gmail.com">emmanuelpraise36@gmail.com</a>
+
+    <!-- BOOKMARK TO CHAPTER 4 -->
+    <a href="page.html#chapter4">See Chapter 4</a>
+
+    <h2>The picture Element</h2>
+
+    <!-- <picture>
+        <source media="(min-width: 650px)" srcset="/img/man.jpg">
+        <source media="(min-width: 465px)" srcset="/img/woman.jpg">
+        <img src="/img/city.jpg" style="width:auto;">
+    </picture> -->
+
+    <p>Resize page to see changes</p>
+    <picture>
+        <source media="(min-width: 465px)" srcset="/img/laptop.png">
+        <img src="/img/smartphone.png" style="width:auto;" alt="">
+    </picture>
+
+    <figure>
+        <img src="/img/city.jpg" alt="Trulli" style="width:100%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+
+    <h2>HTML Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emmanuel</td>
+                <td>Praise</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Jane</td>
+                <td>Smith</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>CSS Borders</h2>
+    <h3>dotted</h3>
+    <p class="dotted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>dashed</h3>
+    <p class="dashed">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>solid</h3>
+    <p class="solid">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>double</h3>
+    <p class="double">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>groove</h3>
+    <p class="groove">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>ridge</h3>
+    <p class="ridge">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>inset</h3>
+    <p class="inset">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>outset</h3>
+    <p class="outset">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>none</h3>
+    <p class="none">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <h3>hidden</h3>
+    <p class="hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit fuga perspiciatis cumque facere
+        eveniet qui quam doloribus, ipsa adipisci, mollitia magni repellat, inventore fugiat corporis aut sint nam et
+        similique.</p>
+
+    <table style="width:100%">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+    </table>
+
+    <h2>Table with caption</h2>
+    <table style="width:100%">
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+    </table>
+
+    <h2>Striped Table</h2>
+    <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table
+        rows:</p>
+
+    <table style="width:100%">
+        <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            <th>SUN</th>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+        </tr>
+    </table>
+
+    <h2>Colgroup</h2>
+    <p>Add the a colgroup with a col element that spans over two columns to define a style for the two columns:</p>
+
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="2" style="background-color: #D6EEEE">
+        </colgroup>
+        <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WED</th>
+            <th>THU</th>
+            <th>FRI</th>
+            <th>SAT</th>
+            <th>SUN</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+        </tr>
+    </table>
+
+    <h2>HTML Description Lists</h2>
+
+    <dl>
+        <dt>lo</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla ipsum nostrum accusantium explicabo
+            atque voluptatem tempora incidunt sit? Repellat, inventore nam! Ex veniam pariatur nobis sapiente nostrum
+            quia neque?</dd>
+        <dt>lo</dt>
+        <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nulla ipsum nostrum accusantium explicabo
+            atque voluptatem tempora incidunt sit? Repellat, inventore nam! Ex veniam pariatur nobis sapiente nostrum
+            quia neque?</dd>
+    </dl>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem distinctio odit quasi quidem facere.
+        Maxime, doloremque perferendis. Nulla asperiores dicta eum explicabo earum consectetur? Saepe animi, dolor
+        dolorem minima, architecto quasi ad molestias nostrum ducimus, doloremque quos accusamus. Quia dolore placeat
+        eum dolor corporis amet voluptatem, laudantium in fugiat explicabo harum aliquid at minus autem obcaecati
+        repellat praesentium excepturi error adipisci sunt. Expedita sunt esse vel, delectus natus voluptates explicabo
+        fuga eius autem animi! Ullam ea iusto dolorum ratione voluptate odit optio non et vero voluptatibus quo
+        repellendus ipsam alias laboriosam cum, cumque fugit quis nostrum quia quaerat assumenda. Cupiditate itaque nam,
+        incidunt expedita debitis ex sequi blanditiis dolorum quos, aspernatur architecto quisquam dolores impedit
+        nostrum provident vel recusandae eveniet laborum molestiae voluptas. Itaque esse cupiditate nostrum dolore
+        quibusdam dicta quae molestias necessitatibus? Cum atque maiores provident velit fugiat, facilis sunt nam
+        doloribus totam exercitationem expedita alias. Fugit in dolorem veniam odio optio animi nemo porro delectus
+        pariatur, dicta distinctio molestias blanditiis magni totam aut quas tempora amet nulla maiores voluptates culpa
+        itaque neque natus officia. Deleniti maiores est sapiente minus quis eum delectus odit facere nam tempora. Neque
+        voluptatum commodi perspiciatis nemo cum eum! Quidem adipisci voluptatibus odio incidunt accusamus
+        exercitationem praesentium iste nobis dolor delectus accusantium quaerat sequi dicta ipsum excepturi id iure
+        odit maxime repellat sit, tempore sunt magnam eius obcaecati. Deserunt cumque aspernatur, laboriosam recusandae
+        porro neque soluta inventore, nihil voluptatibus facere dolore excepturi voluptates hic ducimus incidunt,
+        explicabo amet impedit veritatis mollitia assumenda minima nostrum! Enim dolorem asperiores architecto sed! Ad,
+        debitis hic. Ullam animi obcaecati nulla ex consequatur porro optio voluptatem eos blanditiis commodi adipisci
+        nihil aspernatur sequi et facere sunt odit impedit cumque minima corporis, aperiam saepe maiores. Sint
+        perferendis quidem aspernatur inventore voluptates adipisci magni porro dolorum reprehenderit natus et, ipsam
+        quis rem numquam. Temporibus impedit, quibusdam veritatis nemo, neque cum perferendis omnis distinctio fugiat
+        unde sit accusantium, explicabo deserunt ipsam rem asperiores exercitationem magni saepe dignissimos commodi
+        quae vitae dolorum rerum. Cumque commodi modi velit laudantium dignissimos sint maiores quia ipsum libero
+        reiciendis tempora quam itaque a deleniti harum, nemo enim perspiciatis necessitatibus non dolores architecto
+        exercitationem molestiae error dolorum! Fugiat aut porro labore eum, exercitationem corporis odio ullam corrupti
+        aliquam quasi, deserunt neque ipsum mollitia minima illo doloremque reiciendis provident. Maiores asperiores
+        maxime tenetur! Aut quam autem expedita harum maxime perspiciatis voluptas, dicta, molestiae et hic culpa earum
+        vero possimus cum quis? Quia, fuga quam. Velit ratione reiciendis, accusamus iusto ipsum veritatis, suscipit
+        enim a, tempora ab est pariatur sapiente soluta quam consectetur quibusdam. Vitae est animi pariatur, iusto quo
+        ipsum alias vel! Dolorem nostrum reiciendis praesentium unde harum. Quas tempora magni facilis debitis
+        dignissimos praesentium quibusdam laudantium omnis labore quod hic id suscipit saepe nemo, delectus dolorum
+        maiores soluta modi ea laboriosam corrupti explicabo consequatur et quaerat. Culpa velit ducimus nobis voluptas
+        dolor nisi consequuntur quam deserunt repellat harum tenetur temporibus vero debitis, laboriosam animi! Eveniet
+        sint dolor quibusdam vitae, hic pariatur natus deserunt molestiae, deleniti ullam enim.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae rem distinctio odit quasi quidem facere.
+        Maxime, doloremque perferendis. Nulla asperiores dicta eum explicabo earum consectetur? Saepe animi, dolor
+        dolorem minima, architecto quasi ad molestias nostrum ducimus, doloremque quos accusamus. Quia dolore placeat
+        eum dolor corporis amet voluptatem, laudantium in fugiat explicabo harum aliquid at minus autem obcaecati
+        repellat praesentium excepturi error adipisci sunt. Expedita sunt esse vel, delectus natus voluptates explicabo
+        fuga eius autem animi! Ullam ea iusto dolorum ratione voluptate odit optio non et vero voluptatibus quo
+        repellendus ipsam alias laboriosam cum, cumque fugit quis nostrum quia quaerat assumenda. Cupiditate itaque nam,
+        incidunt expedita debitis ex sequi blanditiis dolorum quos, aspernatur architecto quisquam dolores impedit
+        nostrum provident vel recusandae eveniet laborum molestiae voluptas. Itaque esse cupiditate nostrum dolore
+        quibusdam dicta quae molestias necessitatibus? Cum atque maiores provident velit fugiat, facilis sunt nam
+        doloribus totam exercitationem expedita alias. Fugit in dolorem veniam odio optio animi nemo porro delectus
+        pariatur, dicta distinctio molestias blanditiis magni totam aut quas tempora amet nulla maiores voluptates culpa
+        itaque neque natus officia. Deleniti maiores est sapiente minus quis eum delectus odit facere nam tempora. Neque
+        voluptatum commodi perspiciatis nemo cum eum! Quidem adipisci voluptatibus odio incidunt accusamus
+        exercitationem praesentium iste nobis dolor delectus accusantium quaerat sequi dicta ipsum excepturi id iure
+        odit maxime repellat sit, tempore sunt magnam eius obcaecati. Deserunt cumque aspernatur, laboriosam recusandae
+        porro neque soluta inventore, nihil voluptatibus facere dolore excepturi voluptates hic ducimus incidunt,
+        explicabo amet impedit veritatis mollitia assumenda minima nostrum! Enim dolorem asperiores architecto sed! Ad,
+        debitis hic. Ullam animi obcaecati nulla ex consequatur porro optio voluptatem eos blanditiis commodi adipisci
+        nihil aspernatur sequi et facere sunt odit impedit cumque minima corporis, aperiam saepe maiores. Sint
+        perferendis quidem aspernatur inventore voluptates adipisci magni porro dolorum reprehenderit natus et, ipsam
+        quis rem numquam. Temporibus impedit, quibusdam veritatis nemo, neque cum perferendis omnis distinctio fugiat
+        unde sit accusantium, explicabo deserunt ipsam rem asperiores exercitationem magni saepe dignissimos commodi
+        quae vitae dolorum rerum. Cumque commodi modi velit laudantium dignissimos sint maiores quia ipsum libero
+        reiciendis tempora quam itaque a deleniti harum, nemo enim perspiciatis necessitatibus non dolores architecto
+        exercitationem molestiae error dolorum! Fugiat aut porro labore eum, exercitationem corporis odio ullam corrupti
+        aliquam quasi, deserunt neque ipsum mollitia minima illo doloremque reiciendis provident. Maiores asperiores
+        maxime tenetur! Aut quam autem expedita harum maxime perspiciatis voluptas, dicta, molestiae et hic culpa earum
+        vero possimus cum quis? Quia, fuga quam. Velit ratione reiciendis, accusamus iusto ipsum veritatis, suscipit
+        enim a, tempora ab est pariatur sapiente soluta quam consectetur quibusdam. Vitae est animi pariatur, iusto quo
+        ipsum alias vel! Dolorem nostrum reiciendis praesentium unde harum. Quas tempora magni facilis debitis
+        dignissimos praesentium quibusdam laudantium omnis labore quod hic id suscipit saepe nemo, delectus dolorum
+        maiores soluta modi ea laboriosam corrupti explicabo consequatur et quaerat. Culpa velit ducimus nobis voluptas
+        dolor nisi consequuntur quam deserunt repellat harum tenetur temporibus vero debitis, laboriosam animi! Eveniet
+        sint dolor quibusdam vitae, hic pariatur natus deserunt molestiae, deleniti ullam enim.</p>
+
+
+    <!-- <iframe src="https://www.w3schools.com/" frameborder="0" name="iframe"></iframe>
+<a href="https://www.w3schools.com/" target="iframe">w3schools</a> -->
+
+    <video src="/img/video.mp4" controls autoplay></video>
+
+    <label for="audio">Easy On Me | Adele | Song • 2015</label>
+    <!-- <audio src="/img/audio.weba" controls autoplay id="audio"></audio> -->
+
+    <!-- <div style="width:100%;height:0;padding-bottom:90%;position:relative;"><iframe src="https://giphy.com/embed/EvYHHSntaIl5m" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/love-disney-girl-EvYHHSntaIl5m">via GIPHY</a></p> -->
+
+    <iframe width="420" height="315" src="https://www.youtube.com/embed/rOmTINlRhxM?autoplay=1">
+    </iframe>
+
+    <input type="text" list="browsers" placeholder="Choose a browser...">
+    <!-- <datalist id="browsers">
+        <option value="chrome">Google Chrome</option>
+        <option value="firefox">Mozilla Firefox</option>
+        <option value="edge">Microsoft Edge</option>
+        <option value="safari">Safari</option>
+        <option value="opera">Opera</option>
+        <option value="brave">Brave</option>
+        <option value="vivaldi">Vivaldi</option>
+        <option value="tor">Tor Browser</option>
+    </datalist> -->
+
+    <select name="browsers" id="browsers">
+  <option value="" disabled selected>Choose a browser...</option>
+  <option value="chrome">Google Chrome</option>
+  <option value="firefox">Mozilla Firefox</option>
+  <option value="edge">Microsoft Edge</option>
+  <option value="safari">Safari</option>
+  <option value="opera">Opera</option>
+  <option value="brave">Brave</option>
+  <option value="vivaldi">Vivaldi</option>
+  <option value="tor">Tor Browser</option>
+</select>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <style>
+        *{
+            font-family: sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .faq {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            border: 2px solid #647DEF;
+            border-radius: 20px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .header {
+            color: black;
+        }
+        
+        .header:hover {
+            color: #647DEF;
+        }
+        svg {
+            width: 24px;
+            height: 24px;
+            fill: #647DEF;
+            transition: transform 0.3s ease;
+            position: absolute;
+            right: 20px;
+            align-self: center;
+        }
+        .content {
+            display: none;
+        }
+        
+        .faq:hover{
+            height: 170px;
+
+            .content {
+                display: block;
+                color: #333;
+                margin-top: 10px;
+            }
+        }
+    </style>
+<body>
+
+    <div class="faq">
+        <span class="header">When will BuyCoin be listed on exchanges?<span class="content">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</span></span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M19,11H13V5a1,1,0,0,0-2,0v6H5a1,1,0,0,0,0,2h6v6a1,1,0,0,0,2,0V13h6a1,1,0,0,0,0-2Z"></path>
+            </svg>
+    
+        
+    </div>
+
+</body>
+</html>
